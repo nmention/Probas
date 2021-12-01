@@ -12,7 +12,7 @@ print(valeurDees)
 
 # tirage aléatoire pour 100 expériences
 for i in range(100):
-    tirage = random.choice(valeurDees);
+    tirage = random.choice(valeurDees)
     print(tirage)
     if(tirage == 2):
         compteur +=1
